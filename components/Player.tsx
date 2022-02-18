@@ -17,7 +17,6 @@ import {
 } from '@heroicons/react/solid';
 
 import { VolumeUpIcon as VolumeDownIcon } from '@heroicons/react/outline';
-import { debounce } from 'lodash';
 import useDebounce from '../hooks/useDebounce';
 
 function Player() {

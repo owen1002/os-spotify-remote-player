@@ -5,7 +5,6 @@ import Song from './Song';
 function Songs() {
   const playlist = useRecoilValue<SpotifyApi.SinglePlaylistResponse>(playlistState);
 
-  console.log(playlist);
   return (
     <div className="text-white px-8 flex flex-col pb-24 bg-[#121212]">
       {playlist?.tracks?.items.map((item, index) => {
