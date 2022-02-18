@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  .button{
+    @apply h-5 w-5 cursor-pointer duration-100 ease-in-out active:scale-75 scale-100;
+  }
+}
